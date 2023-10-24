@@ -18,7 +18,7 @@ class IndexView(TemplateView):
         context['agents'] = Agent.objects.all()
         context['blogs'] = Blog.objects.all()
         context['pr_comments'] = TextToProperty.objects.all()
-        return context
+        return context 
 
 
 class AgentSingleView(DetailView):
