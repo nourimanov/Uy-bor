@@ -19,7 +19,7 @@ class IndexView(TemplateView):
         context['blogs'] = Blog.objects.all()
         context['pr_comments'] = TextToProperty.objects.all()
         return context
- 
+  
 
 class AgentSingleView(DetailView):
     queryset = Agent.objects.all()
