@@ -142,3 +142,4 @@ class SignInView(LoginView):
 def logout_view(request):
     logout(request)
     return redirect('index')
+ 
